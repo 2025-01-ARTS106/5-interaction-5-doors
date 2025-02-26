@@ -1876,6 +1876,7 @@ GameObject:
   - component: {fileID: 1373785846}
   - component: {fileID: 1373785845}
   - component: {fileID: 1373785844}
+  - component: {fileID: 1373785848}
   m_Layer: 0
   m_Name: Door
   m_TagString: Untagged
@@ -1898,11 +1899,11 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 2, y: 1, z: 125}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1373785845
 MeshRenderer:
@@ -1969,6 +1970,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1373785848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1373785843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 599fe9907ec231e45a5c4dd218889163, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
