@@ -12,13 +12,13 @@ public class DoorMove : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
 
-            hinge.transform.Rotate(0, -90, 0); 
+            hinge.transform.Rotate(0, 90, 0); 
     }
 
     private void OnTriggerExit(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
-            hinge.transform.Rotate(0, 90, 0);
+            hinge.transform.Rotate(0, -90, 0);
 
     }
 }
