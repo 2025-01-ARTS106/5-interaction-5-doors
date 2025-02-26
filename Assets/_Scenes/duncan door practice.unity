@@ -200,7 +200,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.92
+      value: 0.51
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.y
@@ -208,7 +208,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 13.66
+      value: -4.71
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalRotation.w
@@ -746,7 +746,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8551396424829314983, guid: a526579d26461f4448237dc9229a30e3, type: 3}
   m_PrefabInstance: {fileID: 3185749386618132060}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2058037886
+--- !u!114 &2058037891
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -758,6 +758,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2fdb2568ca521d439438566fdf41d05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hinge: {fileID: 0}
 --- !u!1 &2068867264
 GameObject:
   m_ObjectHideFlags: 0
@@ -962,6 +963,14 @@ PrefabInstance:
       value: hinge
       objectReference: {fileID: 0}
     - target: {fileID: 5015604171880926502, guid: a526579d26461f4448237dc9229a30e3, type: 3}
+      propertyPath: m_Size.y
+      value: 2.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 5015604171880926502, guid: a526579d26461f4448237dc9229a30e3, type: 3}
+      propertyPath: m_Size.z
+      value: 8.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 5015604171880926502, guid: a526579d26461f4448237dc9229a30e3, type: 3}
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
@@ -983,7 +992,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 8551396424829314983, guid: a526579d26461f4448237dc9229a30e3, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2058037886}
+      addedObject: {fileID: 2058037891}
   m_SourcePrefab: {fileID: 100100000, guid: a526579d26461f4448237dc9229a30e3, type: 3}
 --- !u!1001 &3765335708826194663
 PrefabInstance:
