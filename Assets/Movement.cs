@@ -5,13 +5,14 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
+    [SerializeField]
     private GameObject door;
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            door.transform.Translate(new Vector3((float)0.25, (float)-1.8, 0));
+            door.transform.Translate(new Vector3(0,-4, 0));
         }
 
 
@@ -20,7 +21,7 @@ public class Movement : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
             {
-            door.transform.Translate(new Vector3((float)0.25, (float)1.789, 0));
+            door.transform.Translate(new Vector3(0,4, 0));
         }
     }
 }
