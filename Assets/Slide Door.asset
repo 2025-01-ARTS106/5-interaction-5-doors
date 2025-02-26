@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Slide Door
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":50.86264,"y":85.4135},"zoom":0.6999999,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-178.0,"y":81.0},"guid":"f765bf5f-ac97-43a8-88df-7ca614f346fa","$version":"A","$type":"Unity.VisualScripting.OnTriggerEnter","$id":"9"},{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-180.0,"y":-127.0},"guid":"0d8a76cf-a885-433e-9050-12a5f9ab88a5","$version":"A","$type":"Unity.VisualScripting.OnTriggerExit","$id":"11"},{"chainable":false,"parameterNames":["translation"],"member":{"name":"Translate","parameterTypes":["UnityEngine.Vector3"],"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null,"%translation":{"x":3.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"}},"position":{"x":131.0,"y":69.0},"guid":"c4b01f70-baf9-4e54-90d5-718ee3738841","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"13"},{"chainable":false,"parameterNames":["translation"],"member":{"name":"Translate","parameterTypes":["UnityEngine.Vector3"],"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null,"%translation":{"x":-3.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"}},"position":{"x":130.0,"y":-128.0},"guid":"bb96af8a-3166-481b-9285-4a0aab7de57d","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"17"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"enter","guid":"a22034cd-537f-49bc-a333-b5f5d7b46558","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"trigger","destinationUnit":{"$ref":"17"},"destinationKey":"enter","guid":"38f37f94-b029-49d3-8450-05f62c5507b9","$type":"Unity.VisualScripting.ControlConnection"}],"$version":"A"}}'
+    _objectReferences: []
