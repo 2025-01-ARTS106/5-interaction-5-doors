@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Door Slide Right
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":45.74412,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-450.0,"y":-288.0},"guid":"947f7932-ea9b-439a-9733-053b09b422cf","$version":"A","$type":"Unity.VisualScripting.OnTriggerEnter","$id":"9"},{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-445.0,"y":89.0},"guid":"d9727ddc-3b71-490c-b407-f52f3674f4ec","$version":"A","$type":"Unity.VisualScripting.OnTriggerExit"},{"member":{"name":"tag","parameterTypes":null,"targetType":"UnityEngine.Component","targetTypeName":"UnityEngine.Component","$version":"A"},"defaultValues":{"target":null},"position":{"x":-114.0,"y":-255.0},"guid":"f5e8f527-0112-43bb-abc2-426ebfa83b63","$version":"A","$type":"Unity.VisualScripting.GetMember","$id":"13"},{"numeric":false,"defaultValues":{},"position":{"x":202.0,"y":-252.0},"guid":"741e6dcf-3733-4757-bbf8-cc89b38b448b","$version":"A","$type":"Unity.VisualScripting.Equal","$id":"16"},{"type":"System.String","value":{"$content":"Door","$type":"System.String"},"defaultValues":{},"position":{"x":-91.0,"y":-166.0},"guid":"f196af29-eb13-42ac-874e-8adcf569f253","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"18"},{"sourceUnit":{"$ref":"9"},"sourceKey":"collider","destinationUnit":{"$ref":"13"},"destinationKey":"target","guid":"a96a3b73-00af-4ecf-a985-82c6de1c11f0","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"value","destinationUnit":{"$ref":"16"},"destinationKey":"a","guid":"18a9951f-7e4e-42cf-b573-915a6bd643b4","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"output","destinationUnit":{"$ref":"16"},"destinationKey":"b","guid":"0fb28704-18dc-442b-b6b0-a630e18da0d4","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
